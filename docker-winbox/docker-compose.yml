@@ -1,0 +1,17 @@
+version: "3.3"
+
+services:
+
+  winbox:
+    image: jeesa/winbox
+    container_name: winbox
+    restart: always
+    volumes:
+      - /opt/winbox:/home/alpine/.wine/drive_c/users/alpine/AppData/Roaming/Mikrotik/Winbox
+    ports:
+      - "5901:5900"
+      - "18081:8080"
+    environment:
+      - TZ=Asia/Shanghai
+      - USERNAME='username'
+      - PASSWORD='password'
