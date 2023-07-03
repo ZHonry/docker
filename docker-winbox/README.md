@@ -1,9 +1,10 @@
 # noVNC Winbox
 支持中文显示，中文输入法
 
-<img src="https://raw.githubusercontent.com/zhonry/docker/docker-winbox/master/docker-winbox/screenshot/iShot_2023-07-01_14.22.26.png" width="400" /><img src="https://raw.githubusercontent.com/zhonry/docker/docker-winbox/master/docker-winbox/screenshot/iShot_2023-07-01_14.23.06.png" width="400" />
+<img src="https://raw.githubusercontent.com/zhonry/docker/blob/main/docker-winbox/screenshot/iShot_2023-07-01_14.22.26.png" width="400" /><img src="https://raw.githubusercontent.com/zhonry/docker/blob/main/docker-winbox/screenshot/iShot_2023-07-01_14.23.06.png" width="400" />
 
-This docker image is made for laboratory use and testing only. We are not responsible if you use it for commercial purposes or if you use it in production.
+
+
 
 ## 使用说明
 挂载/home/alpine/.wine/drive_c/users/alpine/AppData/Roaming/Mikrotik/Winbox目录，将winbox登陆信息永久化保存
