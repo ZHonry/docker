@@ -1,7 +1,7 @@
 # noVNC MetaTrader4
 添加中文环境，修复中文显示乱码
 
-<img src="https://github.com/ZHonry/docker/blob/main/docker-mt4/screenshot/iShot_2023-07-03_15.16.39.png" width="400" />
+<img src="https://github.com/ZHonry/docker/blob/main/docker-mt4/screenshot/iShot_2023-07-03_15.16.39.png" width="800" />
 
 
 
