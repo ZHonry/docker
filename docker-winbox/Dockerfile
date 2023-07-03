@@ -4,11 +4,7 @@ MAINTAINER zhanghz <zhz@honry.net>
 
 ENV DISPLAY=":1"\
  LANG=zh_CN.UTF-8\
- LC_ALL=zh_CN.UTF-8\
- GTK_IM_MODULE=fcitx\
- QT_IM_MODULE=fcitx\
- XMODIFIERS=@im=fcitx\
- SDL_IM_MODULE=fcitx
+ LC_ALL=zh_CN.UTF-8
 
 RUN echo http://mirrors.ustc.edu.cn/alpine/edge/testing >> /etc/apk/repositories
 
