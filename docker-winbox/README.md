@@ -1,8 +1,7 @@
 # noVNC Winbox
 支持中文显示，中文输入法
 
-<img src="https://raw.githubusercontent.com/zhonry/docker/blob/main/docker-winbox/screenshot/iShot_2023-07-01_14.22.26.png" width="400" /><img src="https://raw.githubusercontent.com/zhonry/docker/blob/main/docker-winbox/screenshot/iShot_2023-07-01_14.23.06.png" width="400" />
-
+<img src="https://github.com/ZHonry/docker/blob/main/docker-winbox/screenshot/iShot_2023-07-01_14.22.26.png" width="400" /><img src="https://github.com/ZHonry/docker/blob/main/docker-winbox/screenshot/iShot_2023-07-01_14.23.06.png" width="400" />
 
 
 
