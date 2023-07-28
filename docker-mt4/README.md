@@ -6,9 +6,9 @@
 
 
 ## 使用说明
-挂载/opt/mt4/MQL4:/opt/MetaTrader4/MQL4目录，惯例EA、技术指标、脚本等
+挂载/opt/mt4/MQL4:/opt/MetaTrader4/MQL4目录，管理EA、技术指标、脚本等
 挂载/home/alpine/MetaTrader4/config目录，持久化保存MT4登陆信息
-设置环境变量USERNAME和PASSWORD修改启动用户名和密码
+设置环境变量USERNAME和PASSWORD修改启动用户名和密码(默认用户名：user 默认密码：password)
 
 ### 命令行启动
 
@@ -44,7 +44,7 @@ mt4:
     environment:
       - TZ=Asia/Shanghai
       - USERNAME='user'
-      - PASSWORD='abc'
+      - PASSWORD='password'
       - SCREEN_RESOLUTION='1440x900x24'
 ```
 
