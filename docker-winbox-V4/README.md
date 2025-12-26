@@ -49,5 +49,3 @@ services:
 VNC客户端访问5901端口或者浏览器访问IP+18081
 
 
-## Github
-构建参考 [CNSoluciones](https://github.com/lordbasex/Docker)
