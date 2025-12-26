@@ -21,7 +21,7 @@ RUN apk add --no-cache --update netcat-openbsd busybox-extras sudo python3 git b
 RUN addgroup alpine \
   && adduser  -G alpine -s /bin/sh -D alpine \
   && echo "alpine    ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-RUN  wget -q -c -O /home/alpine/winbox64.exe "https://mt.lv/winbox64"
+RUN  wget -q -c -O /home/alpine/winbox64.exe "https://download.mikrotik.com/routeros/winbox/3.43/winbox64.exe"
 # For access via VNC
 EXPOSE 5900
 
