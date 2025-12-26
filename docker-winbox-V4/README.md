@@ -6,6 +6,7 @@
 
 
 ## 使用说明
+挂载/home/winbox/.local/share/MikroTik/WinBox目录，将winbox登陆信息永久化保存
 设置环境变量USERNAME和PASSWORD修改启动用户名和密码
 
 ### 命令行启动
@@ -15,7 +16,7 @@ docker pull jeesa/winbox:latest-V4
 ```
 
 ```bash
-docker run --rm --name=winbox -tid -p -p 5901:5900 -p 18081:8080 -e USERNAME='username' -e PASSWORD='password' jeesa/winbox:latest-V4
+docker run --rm --name=winbox -tid -p -p 5901:5900 -p 18081:8080 -v /your/local/winbox-data:/home/winbox/.local/share/MikroTik/WinBox -e USERNAME='username' -e PASSWORD='password' jeesa/winbox:latest-V4
 ```
 
 
@@ -35,6 +36,8 @@ services:
     ports:
       - "5901:5900"
       - "18081:8080"
+    volumes:
+      - /your/local/winbox-data:/home/winbox/.local/share/MikroTik/WinBox
     environment:
       - TZ=Asia/Shanghai
       - USERNAME='username'
